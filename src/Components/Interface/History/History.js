@@ -3,7 +3,6 @@ import './History.css'
 const History = () => {
     return (
         <div>
-
             <img data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000" src="https://www.thejanenyc.com/wp-content/uploads/2015/08/history_shot-Recovered.jpg" style={{ width: "100%" }} />

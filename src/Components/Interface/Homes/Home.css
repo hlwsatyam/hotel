@@ -1,10 +1,18 @@
 .header-img {
     width: 100%;
-    
-
-    
 
 }
+
+
+
+.title {
+    font-size: 2em;
+    margin: 0;
+    font-family: abraham_lincolnregular, sans-serif;
+    line-height: 1em;
+    font-weight: 100;
+}
+
 
 .text-container {
     width: 82%;
