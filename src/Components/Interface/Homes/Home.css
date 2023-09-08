@@ -1,0 +1,25 @@
+.header-img {
+    width: 100%;
+    
+
+    
+
+}
+
+.text-container {
+    width: 82%;
+    margin: 4em auto;
+    border-radius: 2px 100px;
+    background: #73AD21;
+    padding: 20px;
+}
+
+.design {
+    height: 20px;
+    width: 100px;
+    margin: 0 auto;
+    mix-blend-mode: multiply;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuRAqCRSMbA1Szqj1PYwPPIQBgxZUCf9wc91p69EmovTIEsnMSUeaXzOLqgEqiVTPoskc&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+}

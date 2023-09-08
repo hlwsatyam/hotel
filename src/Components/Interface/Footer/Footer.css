@@ -1,0 +1,31 @@
+.inner-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+@media only screen and (max-width: 500px) and (min-width: 200px) {
+
+    .inner-footer,
+    .text-side {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+
+}
+
+.footer {
+    background-color: RGB(229, 203, 204);
+    padding: 2rem 0;
+}
+
+.inner-footer span {
+    border-right: 1px dotted red;
+    margin: .5rem;
+    padding: .2rem;
+}

@@ -1,0 +1,38 @@
+.threecard {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.room {
+  position: relative;
+
+}
+
+.threecard box {
+  min-height: 2rem;
+  width: 25%;
+  background-color: #978110;
+  margin: 0 10px;
+  border-radius: 50px 12px;
+  font-style: italic;
+  padding: 2rem;
+  color: rgb(255, 174, 74);
+  transition: all ease-in-out 0.5s
+}
+
+.threecard box:hover {
+  min-height: 2rem;
+  width: 25%;
+  background-color: #978110;
+  margin: 0 10px;
+  border-radius: 50px 12px;
+  font-style: italic;
+  padding: 2rem;
+  color: rgb(255, 174, 74);
+  scale: .0 1.1;
+  overflow-y: hidden;
+}
