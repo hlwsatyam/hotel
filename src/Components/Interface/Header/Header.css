@@ -4,3 +4,29 @@
     color: RGB(255, 224, 224);
     font-size: large;
 }
+
+
+
+@media only screen and (max-width: 990px) {
+    .header-slide {
+        background: url(https://freesvg.org/img/Black-And-White-Flowers.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: local;
+        background-color: #000000;
+    }
+}
+
+
+.indx-sticky {
+    z-index: 1;
+    background-color: #290b0b9d;
+}
+
+
+.anchor-head:first-child {
+    font-weight: 700;
+    color: rgb(150, 142, 142);
+
+}

@@ -31,3 +31,43 @@
     background-size: cover;
     background-position: center;
 }
+
+.home-img {
+    position: relative;
+}
+
+.home-img main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    font-style: italic;
+    font-weight: 700;
+    color: #e8f532;
+    text-shadow: 10px 10px 20px #010000;
+}
+
+.home-img main a {
+    background-color: #c65f5f;
+    color: bisque;
+}
+
+
+.img-half-text {
+    background-color: #1b2847;
+    padding: 2rem;
+    color: #ffe0e0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font: 1.3em sans-serif;
+    position: relative;
+}
+
+.img-half-text img {
+    background-color: #1b2847;
+    
+    color: #ffe0e0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font: 1.3em sans-serif;
+    position: relative;
+}
+
