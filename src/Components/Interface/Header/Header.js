@@ -14,7 +14,12 @@ function Header() {
             {['lg'].map((expand) => (
                 <Navbar key={expand} expand={expand} className=" position-sticky top-0 indx-sticky bg-body-tertiary  w-100  ">
                     <Container fluid>
-                        <Navbar.Brand href="#">My Hotel</Navbar.Brand>
+                        <Navbar.Brand>
+
+                            <Link to='/' className='text-decoration-none text-white fw-bold ' >
+                                My Hotel
+                            </Link>
+                        </Navbar.Brand>
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                         <Navbar.Offcanvas
                             id={`offcanvasNavbar-expand-${expand}`}

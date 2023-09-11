@@ -1,0 +1,10 @@
+:-ms-input-placeholder {
+    color: #000;
+}
+
+input {
+    background-color: #ade416;
+    padding: 1rem 0.5rem;
+    width: 100%;
+    border-radius: 50px 10px;
+}
